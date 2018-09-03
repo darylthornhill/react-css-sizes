@@ -31,7 +31,7 @@ This will append two css variables on the body tag and will update on resizing t
 In your CSS you will be able to use the following:
 
 ```css
-.selector: {
+.selector {
     height: var(--app-height, 100vh);
 }
 ```
