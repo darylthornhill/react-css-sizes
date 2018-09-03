@@ -1,6 +1,6 @@
 {
     "name": "react-css-sizes",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "repository": {
         "type": "git",
         "url": "https://github.com/darylthornhill/react-css-sizes/"
@@ -13,9 +13,9 @@
     },
     "keywords": [
         "React",
-        "RenderDOM",
-        "CustomHTML",
-        "Tags",
+        "Viewport",
+        "CSS",
+        "CSS Variables",
         "Javascript"
     ],
     "author": "Daryl Thornhill @darylthornhill",
