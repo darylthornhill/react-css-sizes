@@ -1,6 +1,6 @@
-## React generate viewport sizes in css variables to use throughout app
+## React - generate viewport sizes in css variables to use throughout app
 
-This package helps you inject css variables that are equal to the viewport height and width.
+This package helps you inject css variables that are equal to the viewport height and width into the body tag.
 
 ## Installation
 
