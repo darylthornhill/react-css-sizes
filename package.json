@@ -1,0 +1,35 @@
+{
+    "name": "react-css-sizes",
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/darylthornhill/react-css-sizes/"
+    },
+    "description": "Package to include in your react app. This sets --app-height and --app-width to the inner height and width of the window to get accurate readings of the view port.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "babel src --out-dir ."
+    },
+    "keywords": [
+        "React",
+        "RenderDOM",
+        "CustomHTML",
+        "Tags",
+        "Javascript"
+    ],
+    "author": "Daryl Thornhill @darylthornhill",
+    "license": "ISC",
+    "dependencies": {
+        "react": "^16.4.1",
+        "react-dom": "^16.4.1"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel": "^6.23.0",
+        "babel-core": "^6.26.3",
+        "babel-loader": "^7.1.4",
+        "babel-preset-env": "^1.7.0",
+        "babel-preset-react": "^6.24.1"
+    }
+}
