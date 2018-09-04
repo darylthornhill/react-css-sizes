@@ -1,11 +1,11 @@
 {
     "name": "react-css-sizes",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "repository": {
         "type": "git",
         "url": "https://github.com/darylthornhill/react-css-sizes/"
     },
-    "description": "Package to include in your react app. This sets --app-height and --app-width to the inner height and width of the window to get accurate readings of the viewport.",
+    "description": "Package to include in your react app. This sets css variables (--app-height and --app-width) to the inner height and width of the window to get accurate readings of the viewport.",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
