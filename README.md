@@ -2,6 +2,11 @@
 
 This package helps you inject css variables that are equal to the viewport height and width into the body tag.
 
+## Support
+
+-   Any browser that support _CSS Style Declaration setProperty_ [See here](https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration/setProperty)
+-   Anything that supports css variables.
+
 ## Installation
 
 To install the package:
@@ -19,8 +24,14 @@ import ReactCssSizes from 'react-css-sizes';
 Include the component in your layout file or component of choice add this in your render function:
 
 ```javascript
-render(){
-    return <div><ReactCssSizes/></div>
+class MyClass {
+    render() {
+        return (
+            <div>
+                <ReactCssSizes />
+            </div>
+        );
+    }
 }
 ```
 
